@@ -2,6 +2,7 @@ import React from 'react'
 
 const NumberCounter = () => {
     const numbers = [];
+
     const createNumbers = () =>
     {
         for(let i = 1; i < 10; i++)
@@ -12,6 +13,7 @@ const NumberCounter = () => {
                     {i.toString()}
                 </button>
             )
+            
         }
         return numbers;
     }   
